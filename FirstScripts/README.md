@@ -27,9 +27,6 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 ```
 
-✅ **Easy to interpret**  
-❌ **Misses complex patterns**
-
 ---
 
 ### 🔸 Neural Network with Growth Fundamentals
@@ -56,7 +53,7 @@ model = tf.keras.Sequential([
 
 ---
 
-## 📈 Evaluation Strategy
+## 📈 Evaluation Strategy (Work in progress)
 
 | Metric               | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -75,7 +72,7 @@ model = tf.keras.Sequential([
 
 ---
 
-## 📌 Insights & Observations
+## 📌 Insights & Observations (WiP)
 
 - **Linear regression is simple and interpretable**, but struggles with non-linearity and financial complexity.
 - **Neural networks perform better with more features**, especially if they reflect business fundamentals.
